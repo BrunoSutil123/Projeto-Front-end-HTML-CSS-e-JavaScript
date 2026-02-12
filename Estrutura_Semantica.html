@@ -1,6 +1,4 @@
-<!-- Corpo do site, todos os elementos visíveis estão aqui dentro -->
-
-    <!--
+<!--
     Estrutura correta:
 
     <Head>
@@ -25,10 +23,12 @@
     <!-- Metadados da página (não aparecem visualmente) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Estudo de Tags Semânticas</title>
 </head>
 
-<body>
+<body><!-- Corpo do site, todos os elementos visíveis estão aqui dentro -->
+
 
     <!-- HEADER: Cabeçalho da página -->
     <!-- Geralmente contém logo, título e menu principal -->
@@ -81,6 +81,15 @@
         </section>
 
 
+        <!-- FIGURE: Conteúdo ilustrativo -->
+        <!-- Usado para imagens, gráficos, códigos -->
+        <figure>
+            <img src="https://static.semrush.com/blog/uploads/media/0a/0f/0a0fd07d0a6ee7a7f893b0e21379c0ae/ES-Semantic-Search-Non-Semantic.png" alt="Imagem ilustrativa" height="800px", width="800px">
+            <figcaption>Exemplo de imagem com legenda usando figure e figcaption.</figcaption> <!--legenda da figura-->
+        </figure>
+
+
+
         <!-- ASIDE: Conteúdo complementar -->
         <!-- Geralmente usado para barra lateral -->
         <aside>
@@ -92,13 +101,6 @@
             </ul>
         </aside>
 
-
-        <!-- FIGURE: Conteúdo ilustrativo -->
-        <!-- Usado para imagens, gráficos, códigos -->
-        <figure>
-            <img src="https://static.semrush.com/blog/uploads/media/0a/0f/0a0fd07d0a6ee7a7f893b0e21379c0ae/ES-Semantic-Search-Non-Semantic.png" alt="Imagem ilustrativa" height="800px", width="800px">
-            <figcaption>Exemplo de imagem com legenda usando figure e figcaption.</figcaption> <!--legenda da figura-->
-        </figure>
 
 
         <!-- DETAILS e SUMMARY: Conteúdo expansível, É o container que guarda o conteúdo oculto. -->
